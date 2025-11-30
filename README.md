@@ -43,15 +43,15 @@ python3 main.py
 🧠 Network Layers  
 The model features a sophisticated CNN architecture with:
 
-Multiple Convolutional Layers with ReLU activation
+i. Multiple Convolutional Layers with ReLU activation
 
-MaxPooling Layers for dimensionality reduction
+ii. MaxPooling Layers for dimensionality reduction
 
-Batch Normalization for stable training
+iii. Batch Normalization for stable training
 
-Dropout Layers to prevent overfitting
+iv. Dropout Layers to prevent overfitting
 
-Dense Layers for final classification
+v. Dense Layers for final classification
 
 ## 📊 Performance Metrics
 ✅ 84% Test Accuracy
@@ -78,16 +78,16 @@ FastAPI - Modern and high-performance
 
 💡 Quick Start with Flask  
 python
-from tensorflow import keras
-from flask import Flask, request, jsonify
+from tensorflow import keras  
+from flask import Flask, request, jsonify  
 
-model = keras.models.load_model('ImgClassification.keras')
-app = Flask(__name__)
+model = keras.models.load_model('ImgClassification.keras')  
+app = Flask(__name__)  
 
-@app.route('/predict', methods=['POST'])
-def predict():
-    # Your prediction logic here
-    return jsonify({'prediction': 'your_class'})
+@app.route('/predict', methods=['POST'])  
+def predict():  
+    # Your prediction logic here  
+    return jsonify({'prediction': 'your_class'})  
 ## ✨ Key Features
 🎯 High Accuracy - 84% on test data
 
