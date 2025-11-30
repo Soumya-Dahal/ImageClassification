@@ -29,11 +29,11 @@ dataset/
 (NOTE: I have not used the validatoin data provided in the dataset, I just used 20% of training data as validation data.)
 
 ## ⚙️ Installation
-bash
+bash  
 pip install tensorflow
 
 ## 🎯 Run the Model
-bash
+bash  
 python3 main.py
 
 ## 🏗️ Model Architecture
@@ -77,7 +77,7 @@ Django - Full-featured and scalable
 FastAPI - Modern and high-performance
 
 💡 Quick Start with Flask  
-python
+python  
 from tensorflow import keras  
 from flask import Flask, request, jsonify  
 
