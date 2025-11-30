@@ -10,21 +10,21 @@ Get the dataset from Kaggle:
 ### 2. 📁 Setup Folder Structure
 Organize your dataset as follows:
 
-dataset/
-├── train/
-│   ├── buildings/
-│   ├── forest/
-│   ├── glacier/
-│   ├── mountain/
-│   ├── sea/
-│   └── street/
-├── test/
-│   ├── buildings/
-│   ├── forest/
-│   ├── glacier/
-│   ├── mountain/
-│   ├── sea/
-│   └── street/
+dataset/    
+├── train/    
+│   ├── buildings/    
+│   ├── forest/  
+│   ├── glacier/  
+│   ├── mountain/  
+│   ├── sea/  
+│   └── street/  
+├── test/  
+│   ├── buildings/  
+│   ├── forest/  
+│   ├── glacier/  
+│   ├── mountain/  
+│   ├── sea/  
+│   └── street/  
 
 (NOTE: I have not used the validatoin data provided in the dataset, I just used 20% of training data as validation data.)
 
@@ -40,7 +40,7 @@ python3 main.py
 📊 CNN Architecture Diagram
 <img width="3664" height="426" alt="diagram-export-11-30-2025-10_27_06-PM" src="https://github.com/user-attachments/assets/c2338c09-a68e-4650-9fdc-6e9661ab28a9" />
 
-🧠 Network Layers
+🧠 Network Layers  
 The model features a sophisticated CNN architecture with:
 
 Multiple Convolutional Layers with ReLU activation
@@ -76,7 +76,7 @@ Django - Full-featured and scalable
 
 FastAPI - Modern and high-performance
 
-💡 Quick Start with Flask
+💡 Quick Start with Flask  
 python
 from tensorflow import keras
 from flask import Flask, request, jsonify
