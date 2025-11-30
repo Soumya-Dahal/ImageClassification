@@ -1,16 +1,15 @@
-🖼️ Image Classification using CNNs with TensorFlow & Keras
-📋 Project Overview
+# 🖼️ Image Classification using CNNs with TensorFlow & Keras
+## 📋 Project Overview
 This project demonstrates how to build a powerful Convolutional Neural Network (CNN) for image classification using TensorFlow and Keras. The model achieves 84% accuracy in classifying various scene categories including buildings, forests, mountains etc.
 
-🚀 Quick Start Guide
-1. 📥 Download the Dataset
+## 🚀 Quick Start Guide
+### 1. 📥 Download the Dataset
 Get the dataset from Kaggle:
-🔗 Intel Image Classification Dataset
+🔗 Intel Image Classification Dataset: https://www.kaggle.com/datasets/puneet6060/intel-image-classification
 
-2. 📁 Setup Folder Structure
+### 2. 📁 Setup Folder Structure
 Organize your dataset as follows:
 
-text
 dataset/
 ├── train/
 │   ├── buildings/
@@ -28,15 +27,18 @@ dataset/
 │   └── street/
 
 (NOTE: I have not used the validatoin data provided in the dataset, I just used 20% of training data as validation data.)
-3. ⚙️ Installation
+
+## ⚙️ Installation
 bash
 pip install tensorflow
-4. 🎯 Run the Model
+
+## 🎯 Run the Model
 bash
 python3 main.py
-🏗️ Model Architecture
+
+## 🏗️ Model Architecture
 📊 CNN Architecture Diagram
-https://github.com/user-attachments/assets/f44dc34a-28ef-4857-b029-7da3891197bc
+<img width="3664" height="426" alt="diagram-export-11-30-2025-10_27_06-PM" src="https://github.com/user-attachments/assets/c2338c09-a68e-4650-9fdc-6e9661ab28a9" />
 
 🧠 Network Layers
 The model features a sophisticated CNN architecture with:
@@ -51,26 +53,23 @@ Dropout Layers to prevent overfitting
 
 Dense Layers for final classification
 
-📊 Performance Metrics
+## 📊 Performance Metrics
 ✅ 84% Test Accuracy
 
 📈 Comprehensive training/validation graphs
 
-📉 Loss convergence analysis
-
-🎯 Precision-recall metrics
 
 Check the notebook for detailed performance visualizations!
 
-💾 Model Output
+## 💾 Model Output
 After training, you'll get:
 
 ImgClassification.keras - Your trained model file
 
-🌐 Web Integration
-Ready to deploy? Use your .keras model with:
+## 🌐 Web Integration
+if you wish to deploy use your .keras model with:
 
-🛠️ Framework Options
+### 🛠️ Framework Options
 Flask - Lightweight and flexible
 
 Django - Full-featured and scalable
@@ -89,7 +88,7 @@ app = Flask(__name__)
 def predict():
     # Your prediction logic here
     return jsonify({'prediction': 'your_class'})
-✨ Key Features
+## ✨ Key Features
 🎯 High Accuracy - 84% on test data
 
 🔧 Easy Customization - Modify hyperparameters easily
@@ -104,22 +103,21 @@ def predict():
 The model classifies images into 6 categories:
 
 Category	Examples
-🏢 Buildings	Skyscrapers, houses, structures
-🌳 Forest	Woodlands, trees, natural vegetation
-🧊 Glacier	Ice formations, snowy landscapes
-⛰️ Mountain	Peaks, hills, rocky terrain
-🌊 Sea	Oceans, beaches, marine views
-🛣️ Street	Roads, urban scenes, city streets
-🔄 Customization
+🏢 Buildings:  Skyscrapers, houses, structures
+🌳 Forest:	Woodlands, trees, natural vegetation
+🧊 Glacier:	Ice formations, snowy landscapes
+⛰️ Mountain:	Peaks, hills, rocky terrain
+🌊 Sea:	Oceans, beaches, marine views
+🛣️ Street:	Roads, urban scenes, city streets
 
-Feel free to experiment with:
+## Feel free to experiment with:
 
-Learning rates
+### 1. Learning rates
 
-Number of layers
+### 2. Number of layers
 
-Dropout rates
+### 3. Dropout rates
 
-Batch sizes
+### 4. Batch sizes
 
-Optimizer choices
+### 5. Optimizer choices
